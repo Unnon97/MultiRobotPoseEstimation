@@ -1,8 +1,8 @@
 # MultiRobotPoseEstimation
 ## Synthetic Dataset generation using NVIDIA Isaac Sim
-1. Modified and used the 3D models of objects/robots in Universal Scene Descriptor(USD) format with distraction objects to develop synthetic dataset for Computer Vision model training
-2. Developed python script for custom Offline Pose Generator code along with a customized YCBVideoWriter to get the datasets in specifically YCB Video format for training
-3. Inputting the dataset, camera parameters and 3D models for PoseCNN algorithm inside its Docker Container
+1. Adapted propriety space exploratory robot 3D models with distraction objects to develop synthetic dataset for Computer Vision based Pose estimation model training.
+2. Developed python script for custom Offline Pose Generator code along with a customized YCB Video format script to get the datasets in specifically YCB Video format for training
+3. Utilized Docker Container to input the dataset, camera properties and 3D models for PoseCNN algorithm
 
 ## PoseCNN Algorithm
 1. Developed docker compose files with CUDA based GL docker image specific to the hardware of RTX 4090 architecture.
