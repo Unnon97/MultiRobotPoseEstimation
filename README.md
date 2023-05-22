@@ -7,6 +7,7 @@ The task involved follwing steps:
 3. Develop a docker image and container to implement the model and input the dataset to predict the object pose
 4. Train the model using different datasets to obtain a robust pose prediction model that could be implemented and predict pose on real robot images obtained from test site.
 
+![](/visual.JPG "Robot pose in 3D plot and in 2D images - Input vs Output")
 
 
 ## Synthetic Dataset generation using NVIDIA Isaac Sim
