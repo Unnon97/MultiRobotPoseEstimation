@@ -7,16 +7,19 @@ The task involved follwing steps:
 3. Develop a docker image and container to implement the model and input the dataset to predict the object pose
 4. Train the model using different datasets to obtain a robust pose prediction model that could be implemented and predict pose on real robot images obtained from test site.
 
-![](/visual.JPG "Robot pose in 3D plot and in 2D images - Input vs Output")
+<img src="/visual.JPG"  alt="Robot pose in 3D plot and in 2D images - Input vs Output"  width="80%" height="80%" title="Robot pose in 3D plot and in 2D images - Input vs Output">
 
 
 ## Synthetic Dataset generation using NVIDIA Isaac Sim
 1. Adapted propriety space exploratory robot 3D models with distraction objects to develop synthetic dataset for Computer Vision based Pose estimation model training.
 2. Developed python script for custom Offline Pose Generator code along with a customized YCB Video format script to get the datasets in specifically YCB Video format for training
 3. Utilized Docker Container to input the dataset, camera properties and 3D models for PoseCNN algorithm
+<img src="/imgformat.JPG"  alt="Robot RGB and semantic information"  width="80%" height="80%" title="Robot RGB and semantic information">
+<img src="/inputimgt1.JPG"  alt="Robot RGB and depth"  width="80%" height="80%" title="Robot RGB and depth">
 
 ## PoseCNN Algorithm
 1. Developed docker compose files with CUDA based GL docker image specific to the hardware of RTX 4090 architecture.
 2. Utilised different version of datasets(each complex than the other) to train the model to predict Robot Pose from RGB images
 3. Compared performance of the model with different hyperparameters and dataset batches to optimise training.
 4. Obtained robot poses for different robots on real images captured by the cameras on robots in on-site testing
+<img src="/op1.JPG"  alt="Robot Poses and bounding box"  width="80%" height="80%" title="Robot Poses and bounding box">
